@@ -1,0 +1,32 @@
+.app-icon {
+  width: 60%;
+  height: 60%;
+  max-width: 200px;
+  margin: auto;
+}
+.description {
+  font-size: 8px;
+  margin-top: 5px;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+.Applist-container {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+  width: 25%;
+  height: 25%;
+}
+@media screen and (min-width: 768px) {
+  .Applist-container {
+    padding-top: 30px;
+  }
+}
